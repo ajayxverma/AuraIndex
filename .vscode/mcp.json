@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "rag-mcp-key",
+      "description": "Enter a generated RAG application API key (rag_...), not a Groq key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "rag-knowledge-base": {
+      "type": "http",
+      "url": "http://localhost:8000/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${input:rag-mcp-key}"
+      }
+    }
+  }
+}

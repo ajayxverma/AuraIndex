@@ -1,0 +1,537 @@
+WARNING:  [30-09-2026 13:49:43] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+INFO:     [30-09-2026 13:49:44] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:    [30-09-2026 13:49:44] Starting component System
+DEBUG:    [30-09-2026 13:49:44] Starting component OpenTelemetryClient
+DEBUG:    [30-09-2026 13:49:44] Starting component SqliteDB
+DEBUG:    [30-09-2026 13:49:44] Starting component SimpleQuotaEnforcer
+DEBUG:    [30-09-2026 13:49:44] Starting component Posthog
+DEBUG:    [30-09-2026 13:49:44] Starting component SimpleRateLimitEnforcer
+DEBUG:    [30-09-2026 13:49:44] Starting component LocalSegmentManager
+DEBUG:    [30-09-2026 13:49:44] Starting component LocalExecutor
+DEBUG:    [30-09-2026 13:49:44] Starting component SegmentAPI
+DEBUG:    [30-09-2026 13:49:44] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [30-09-2026 13:49:44] Started server process [88282]
+INFO:     [30-09-2026 13:49:44] Waiting for application startup.
+INFO:     [30-09-2026 13:49:44] Application startup complete.
+INFO:     [30-09-2026 13:49:44] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [30-09-2026 13:49:44] 127.0.0.1:61218 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 13:49:44] 127.0.0.1:61219 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 13:49:45] 127.0.0.1:61234 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [30-09-2026 13:49:45] 127.0.0.1:61235 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [30-09-2026 13:49:45] 127.0.0.1:61235 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [30-09-2026 13:49:45] 127.0.0.1:61234 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 13:50:14] 127.0.0.1:61243 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 13:50:15] Shutting down
+INFO:     [30-09-2026 13:50:15] Waiting for application shutdown.
+DEBUG:    [30-09-2026 13:50:15] Stopping component System
+DEBUG:    [30-09-2026 13:50:15] Stopping component SegmentAPI
+DEBUG:    [30-09-2026 13:50:15] Stopping component LocalExecutor
+DEBUG:    [30-09-2026 13:50:15] Stopping component LocalSegmentManager
+DEBUG:    [30-09-2026 13:50:15] Stopping component SimpleAsyncRateLimitEnforcer
+DEBUG:    [30-09-2026 13:50:15] Stopping component SimpleRateLimitEnforcer
+DEBUG:    [30-09-2026 13:50:15] Stopping component Posthog
+DEBUG:    [30-09-2026 13:50:15] Stopping component SimpleQuotaEnforcer
+DEBUG:    [30-09-2026 13:50:15] Stopping component SqliteDB
+DEBUG:    [30-09-2026 13:50:15] Stopping component OpenTelemetryClient
+INFO:     [30-09-2026 13:50:15] Application shutdown complete.
+INFO:     [30-09-2026 13:50:15] Finished server process [88282]
+WARNING:  [30-09-2026 14:34:52] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [30-09-2026 14:34:52] Starting component System
+DEBUG:    [30-09-2026 14:34:52] Starting component OpenTelemetryClient
+DEBUG:    [30-09-2026 14:34:52] Starting component SqliteDB
+DEBUG:    [30-09-2026 14:34:52] Starting component SimpleQuotaEnforcer
+DEBUG:    [30-09-2026 14:34:52] Starting component Posthog
+DEBUG:    [30-09-2026 14:34:52] Starting component SimpleRateLimitEnforcer
+DEBUG:    [30-09-2026 14:34:52] Starting component LocalSegmentManager
+DEBUG:    [30-09-2026 14:34:52] Starting component LocalExecutor
+DEBUG:    [30-09-2026 14:34:52] Starting component SegmentAPI
+DEBUG:    [30-09-2026 14:34:52] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [30-09-2026 14:34:52] Started server process [91528]
+INFO:     [30-09-2026 14:34:52] Waiting for application startup.
+INFO:     [30-09-2026 14:34:52] Application startup complete.
+INFO:     [30-09-2026 14:34:52] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [30-09-2026 14:34:52] 127.0.0.1:62088 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 14:34:52] 127.0.0.1:62089 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 14:34:54] 127.0.0.1:62103 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [30-09-2026 14:34:54] 127.0.0.1:62104 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [30-09-2026 14:34:54] 127.0.0.1:62104 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [30-09-2026 14:34:54] 127.0.0.1:62103 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 16:09:33] 127.0.0.1:63803 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 16:11:45] Shutting down
+INFO:     [30-09-2026 16:11:45] Waiting for application shutdown.
+DEBUG:    [30-09-2026 16:11:45] Stopping component System
+DEBUG:    [30-09-2026 16:11:45] Stopping component SegmentAPI
+DEBUG:    [30-09-2026 16:11:45] Stopping component LocalExecutor
+DEBUG:    [30-09-2026 16:11:45] Stopping component LocalSegmentManager
+DEBUG:    [30-09-2026 16:11:45] Stopping component SimpleAsyncRateLimitEnforcer
+DEBUG:    [30-09-2026 16:11:45] Stopping component SimpleRateLimitEnforcer
+DEBUG:    [30-09-2026 16:11:45] Stopping component Posthog
+DEBUG:    [30-09-2026 16:11:45] Stopping component SimpleQuotaEnforcer
+DEBUG:    [30-09-2026 16:11:45] Stopping component SqliteDB
+DEBUG:    [30-09-2026 16:11:45] Stopping component OpenTelemetryClient
+INFO:     [30-09-2026 16:11:45] Application shutdown complete.
+INFO:     [30-09-2026 16:11:45] Finished server process [91528]
+WARNING:  [30-09-2026 18:17:17] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [30-09-2026 18:17:17] Starting component System
+DEBUG:    [30-09-2026 18:17:17] Starting component OpenTelemetryClient
+DEBUG:    [30-09-2026 18:17:17] Starting component SqliteDB
+DEBUG:    [30-09-2026 18:17:17] Starting component SimpleQuotaEnforcer
+DEBUG:    [30-09-2026 18:17:17] Starting component Posthog
+DEBUG:    [30-09-2026 18:17:17] Starting component SimpleRateLimitEnforcer
+DEBUG:    [30-09-2026 18:17:17] Starting component LocalSegmentManager
+DEBUG:    [30-09-2026 18:17:17] Starting component LocalExecutor
+DEBUG:    [30-09-2026 18:17:17] Starting component SegmentAPI
+DEBUG:    [30-09-2026 18:17:17] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [30-09-2026 18:17:17] Started server process [4266]
+INFO:     [30-09-2026 18:17:17] Waiting for application startup.
+INFO:     [30-09-2026 18:17:17] Application startup complete.
+INFO:     [30-09-2026 18:17:17] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [30-09-2026 18:17:18] 127.0.0.1:49672 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 18:17:18] 127.0.0.1:49673 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 18:17:19] 127.0.0.1:49687 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [30-09-2026 18:17:19] 127.0.0.1:49688 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [30-09-2026 18:17:19] 127.0.0.1:49688 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [30-09-2026 18:17:19] 127.0.0.1:49687 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:04] 127.0.0.1:49759 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:05] 127.0.0.1:49759 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:18:14] 127.0.0.1:49769 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:00] 127.0.0.1:49822 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:00] 127.0.0.1:49823 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:00] 127.0.0.1:49823 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:00] 127.0.0.1:49822 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:13] 127.0.0.1:49830 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:13] 127.0.0.1:49831 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:13] 127.0.0.1:49831 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:13] 127.0.0.1:49830 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:14] 127.0.0.1:49841 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:14] 127.0.0.1:49842 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:14] 127.0.0.1:49842 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [30-09-2026 18:20:14] 127.0.0.1:49841 - "GET /api/v2/heartbeat HTTP/1.1" 200
+WARNING:  [30-09-2026 18:22:19] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [30-09-2026 18:22:19] Starting component System
+DEBUG:    [30-09-2026 18:22:19] Starting component OpenTelemetryClient
+DEBUG:    [30-09-2026 18:22:19] Starting component SqliteDB
+DEBUG:    [30-09-2026 18:22:19] Starting component SimpleQuotaEnforcer
+DEBUG:    [30-09-2026 18:22:19] Starting component Posthog
+DEBUG:    [30-09-2026 18:22:19] Starting component SimpleRateLimitEnforcer
+DEBUG:    [30-09-2026 18:22:19] Starting component LocalSegmentManager
+DEBUG:    [30-09-2026 18:22:19] Starting component LocalExecutor
+DEBUG:    [30-09-2026 18:22:19] Starting component SegmentAPI
+DEBUG:    [30-09-2026 18:22:19] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [30-09-2026 18:22:19] Started server process [7730]
+INFO:     [30-09-2026 18:22:19] Waiting for application startup.
+INFO:     [30-09-2026 18:22:19] Application startup complete.
+INFO:     [30-09-2026 18:22:19] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [30-09-2026 18:22:19] 127.0.0.1:49976 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 18:22:19] 127.0.0.1:49977 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [30-09-2026 18:22:20] 127.0.0.1:49979 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [30-09-2026 18:22:20] 127.0.0.1:49980 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [30-09-2026 18:22:20] 127.0.0.1:49980 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [30-09-2026 18:22:20] 127.0.0.1:49979 - "GET /api/v2/heartbeat HTTP/1.1" 200
+DEBUG:    [30-09-2026 18:22:46] Collection docs_local_all-MiniLM-L6-v2 already exists, returning existing collection.
+INFO:     [30-09-2026 18:22:46] 127.0.0.1:50035 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+DEBUG:    [30-09-2026 18:22:46] Starting component PersistentLocalHnswSegment
+INFO:     [30-09-2026 18:22:46] 127.0.0.1:50035 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/query HTTP/1.1" 200
+INFO:     [30-09-2026 18:22:55] 127.0.0.1:50045 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/query HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:09] 127.0.0.1:50057 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:23:12] 127.0.0.1:50057 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:14] 127.0.0.1:50083 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:24:21] 127.0.0.1:50091 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:12] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:15] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:18] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [30-09-2026 18:25:22] 127.0.0.1:50124 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+WARNING:  [01-10-2026 11:35:22] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [01-10-2026 11:35:23] Starting component System
+DEBUG:    [01-10-2026 11:35:23] Starting component OpenTelemetryClient
+DEBUG:    [01-10-2026 11:35:23] Starting component SqliteDB
+DEBUG:    [01-10-2026 11:35:23] Starting component SimpleQuotaEnforcer
+DEBUG:    [01-10-2026 11:35:23] Starting component Posthog
+DEBUG:    [01-10-2026 11:35:23] Starting component SimpleRateLimitEnforcer
+DEBUG:    [01-10-2026 11:35:23] Starting component LocalSegmentManager
+DEBUG:    [01-10-2026 11:35:23] Starting component LocalExecutor
+DEBUG:    [01-10-2026 11:35:23] Starting component SegmentAPI
+DEBUG:    [01-10-2026 11:35:23] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [01-10-2026 11:35:23] Started server process [77254]
+INFO:     [01-10-2026 11:35:23] Waiting for application startup.
+INFO:     [01-10-2026 11:35:23] Application startup complete.
+INFO:     [01-10-2026 11:35:23] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [01-10-2026 11:35:23] 127.0.0.1:64043 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [01-10-2026 11:35:23] 127.0.0.1:64044 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [01-10-2026 11:35:24] 127.0.0.1:64061 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [01-10-2026 11:35:24] 127.0.0.1:64062 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [01-10-2026 11:35:24] 127.0.0.1:64062 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [01-10-2026 11:35:24] 127.0.0.1:64061 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [01-10-2026 11:37:59] 127.0.0.1:64206 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+DEBUG:    [01-10-2026 11:38:22] Collection docs_local_all-MiniLM-L6-v2 already exists, returning existing collection.
+INFO:     [01-10-2026 11:38:22] 127.0.0.1:64227 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+DEBUG:    [01-10-2026 11:38:22] Starting component PersistentLocalHnswSegment
+INFO:     [01-10-2026 11:38:22] 127.0.0.1:64227 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/query HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:54] 127.0.0.1:64241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [01-10-2026 11:38:57] 127.0.0.1:64241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+WARNING:  [06-10-2026 15:27:47] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [06-10-2026 15:27:47] Starting component System
+DEBUG:    [06-10-2026 15:27:47] Starting component OpenTelemetryClient
+DEBUG:    [06-10-2026 15:27:47] Starting component SqliteDB
+DEBUG:    [06-10-2026 15:27:47] Starting component SimpleQuotaEnforcer
+DEBUG:    [06-10-2026 15:27:47] Starting component Posthog
+DEBUG:    [06-10-2026 15:27:47] Starting component SimpleRateLimitEnforcer
+DEBUG:    [06-10-2026 15:27:47] Starting component LocalSegmentManager
+DEBUG:    [06-10-2026 15:27:47] Starting component LocalExecutor
+DEBUG:    [06-10-2026 15:27:47] Starting component SegmentAPI
+DEBUG:    [06-10-2026 15:27:47] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [06-10-2026 15:27:47] Started server process [48206]
+INFO:     [06-10-2026 15:27:47] Waiting for application startup.
+INFO:     [06-10-2026 15:27:47] Application startup complete.
+INFO:     [06-10-2026 15:27:47] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [06-10-2026 15:27:47] 127.0.0.1:50110 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [06-10-2026 15:27:47] 127.0.0.1:50111 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [06-10-2026 15:27:48] 127.0.0.1:50113 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [06-10-2026 15:27:48] 127.0.0.1:50114 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [06-10-2026 15:27:48] 127.0.0.1:50114 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [06-10-2026 15:27:48] 127.0.0.1:50113 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:05] 127.0.0.1:50190 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:05] 127.0.0.1:50190 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:05] 127.0.0.1:50190 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:05] 127.0.0.1:50190 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:05] 127.0.0.1:50190 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:06] 127.0.0.1:50190 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:06] 127.0.0.1:50190 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [06-10-2026 15:29:06] 127.0.0.1:50190 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:04] 127.0.0.1:50254 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [06-10-2026 15:30:10] 127.0.0.1:50261 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+WARNING:  [09-10-2026 10:49:55] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [09-10-2026 10:49:56] Starting component System
+DEBUG:    [09-10-2026 10:49:56] Starting component OpenTelemetryClient
+DEBUG:    [09-10-2026 10:49:56] Starting component SqliteDB
+DEBUG:    [09-10-2026 10:49:56] Starting component SimpleQuotaEnforcer
+DEBUG:    [09-10-2026 10:49:56] Starting component Posthog
+DEBUG:    [09-10-2026 10:49:56] Starting component SimpleRateLimitEnforcer
+DEBUG:    [09-10-2026 10:49:56] Starting component LocalSegmentManager
+DEBUG:    [09-10-2026 10:49:56] Starting component LocalExecutor
+DEBUG:    [09-10-2026 10:49:56] Starting component SegmentAPI
+DEBUG:    [09-10-2026 10:49:56] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [09-10-2026 10:49:56] Started server process [97521]
+INFO:     [09-10-2026 10:49:56] Waiting for application startup.
+INFO:     [09-10-2026 10:49:56] Application startup complete.
+INFO:     [09-10-2026 10:49:56] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [09-10-2026 10:49:56] 127.0.0.1:54178 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [09-10-2026 10:49:56] 127.0.0.1:54179 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [09-10-2026 10:49:57] 127.0.0.1:54182 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [09-10-2026 10:49:57] 127.0.0.1:54183 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [09-10-2026 10:49:57] 127.0.0.1:54183 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [09-10-2026 10:49:57] 127.0.0.1:54182 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:04] 127.0.0.1:54339 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:52:11] 127.0.0.1:54348 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+DEBUG:    [09-10-2026 10:52:33] Collection docs_local_all-MiniLM-L6-v2 already exists, returning existing collection.
+INFO:     [09-10-2026 10:52:33] 127.0.0.1:54375 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+DEBUG:    [09-10-2026 10:52:33] Starting component PersistentLocalHnswSegment
+INFO:     [09-10-2026 10:52:33] 127.0.0.1:54375 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/query HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:02] 127.0.0.1:54426 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:14] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:17] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:19] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:19] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:19] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:19] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:19] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:19] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:19] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:20] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:20] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:20] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:20] 127.0.0.1:54434 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [09-10-2026 10:53:20] 127.0.0.1:54434 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+WARNING:  [09-10-2026 13:56:08] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [09-10-2026 13:56:08] Starting component System
+DEBUG:    [09-10-2026 13:56:08] Starting component OpenTelemetryClient
+DEBUG:    [09-10-2026 13:56:08] Starting component SqliteDB
+DEBUG:    [09-10-2026 13:56:08] Starting component SimpleQuotaEnforcer
+DEBUG:    [09-10-2026 13:56:08] Starting component Posthog
+DEBUG:    [09-10-2026 13:56:08] Starting component SimpleRateLimitEnforcer
+DEBUG:    [09-10-2026 13:56:08] Starting component LocalSegmentManager
+DEBUG:    [09-10-2026 13:56:08] Starting component LocalExecutor
+DEBUG:    [09-10-2026 13:56:08] Starting component SegmentAPI
+DEBUG:    [09-10-2026 13:56:08] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [09-10-2026 13:56:08] Started server process [33887]
+INFO:     [09-10-2026 13:56:08] Waiting for application startup.
+INFO:     [09-10-2026 13:56:08] Application startup complete.
+INFO:     [09-10-2026 13:56:08] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [09-10-2026 13:56:09] 127.0.0.1:52107 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [09-10-2026 13:56:09] 127.0.0.1:52108 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [09-10-2026 13:56:10] 127.0.0.1:52126 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [09-10-2026 13:56:10] 127.0.0.1:52127 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [09-10-2026 13:56:10] 127.0.0.1:52127 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [09-10-2026 13:56:10] 127.0.0.1:52126 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [09-10-2026 14:00:02] 127.0.0.1:52410 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [10-10-2026 19:40:23] 127.0.0.1:49745 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:50:02] 127.0.0.1:50205 - "GET /api/v2/heartbeat HTTP/1.1" 200
+DEBUG:    [10-10-2026 19:50:51] Collection docs_local_all-MiniLM-L6-v2 already exists, returning existing collection.
+INFO:     [10-10-2026 19:50:51] 127.0.0.1:50274 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+DEBUG:    [10-10-2026 19:50:51] Starting component PersistentLocalHnswSegment
+INFO:     [10-10-2026 19:50:51] 127.0.0.1:50274 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/query HTTP/1.1" 200
+INFO:     [10-10-2026 19:50:56] 127.0.0.1:50276 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:51:01] 127.0.0.1:50276 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:51:06] 127.0.0.1:50276 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:45] 127.0.0.1:50624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [10-10-2026 19:57:47] 127.0.0.1:50624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [10-10-2026 19:58:03] Shutting down
+INFO:     [10-10-2026 19:58:03] Waiting for application shutdown.
+DEBUG:    [10-10-2026 19:58:03] Stopping component System
+DEBUG:    [10-10-2026 19:58:03] Stopping component SegmentAPI
+DEBUG:    [10-10-2026 19:58:03] Stopping component LocalExecutor
+DEBUG:    [10-10-2026 19:58:03] Stopping component PersistentLocalHnswSegment
+DEBUG:    [10-10-2026 19:58:03] Stopping component LocalSegmentManager
+DEBUG:    [10-10-2026 19:58:03] Stopping component SimpleAsyncRateLimitEnforcer
+DEBUG:    [10-10-2026 19:58:03] Stopping component SimpleRateLimitEnforcer
+DEBUG:    [10-10-2026 19:58:03] Stopping component Posthog
+DEBUG:    [10-10-2026 19:58:03] Stopping component SimpleQuotaEnforcer
+DEBUG:    [10-10-2026 19:58:03] Stopping component SqliteDB
+DEBUG:    [10-10-2026 19:58:03] Stopping component OpenTelemetryClient
+INFO:     [10-10-2026 19:58:03] Application shutdown complete.
+INFO:     [10-10-2026 19:58:03] Finished server process [33887]
+WARNING:  [12-10-2026 09:54:40] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+DEBUG:    [12-10-2026 09:54:40] Starting component System
+DEBUG:    [12-10-2026 09:54:40] Starting component OpenTelemetryClient
+DEBUG:    [12-10-2026 09:54:40] Starting component SqliteDB
+DEBUG:    [12-10-2026 09:54:40] Starting component SimpleQuotaEnforcer
+DEBUG:    [12-10-2026 09:54:40] Starting component Posthog
+DEBUG:    [12-10-2026 09:54:40] Starting component SimpleRateLimitEnforcer
+DEBUG:    [12-10-2026 09:54:40] Starting component LocalSegmentManager
+DEBUG:    [12-10-2026 09:54:40] Starting component LocalExecutor
+DEBUG:    [12-10-2026 09:54:40] Starting component SegmentAPI
+DEBUG:    [12-10-2026 09:54:40] Starting component SimpleAsyncRateLimitEnforcer
+INFO:     [12-10-2026 09:54:40] Started server process [62427]
+INFO:     [12-10-2026 09:54:40] Waiting for application startup.
+INFO:     [12-10-2026 09:54:40] Application startup complete.
+INFO:     [12-10-2026 09:54:40] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     [12-10-2026 09:54:41] 127.0.0.1:49244 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [12-10-2026 09:54:41] 127.0.0.1:49245 - "GET /api/v2/heartbeat HTTP/1.1" 200
+INFO:     [12-10-2026 09:54:42] 127.0.0.1:49260 - "GET /api/v2/auth/identity HTTP/1.1" 200
+INFO:     [12-10-2026 09:54:42] 127.0.0.1:49261 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+INFO:     [12-10-2026 09:54:42] 127.0.0.1:49261 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+INFO:     [12-10-2026 09:54:42] 127.0.0.1:49260 - "GET /api/v2/heartbeat HTTP/1.1" 200
+DEBUG:    [12-10-2026 09:55:26] Collection docs_local_all-MiniLM-L6-v2 already exists, returning existing collection.
+INFO:     [12-10-2026 09:55:26] 127.0.0.1:49336 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+DEBUG:    [12-10-2026 09:55:27] Starting component PersistentLocalHnswSegment
+INFO:     [12-10-2026 09:55:27] 127.0.0.1:49336 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/query HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [12-10-2026 09:55:56] 127.0.0.1:49371 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/docs_local_all-MiniLM-L6-v2 HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/count HTTP/1.1" 200
+INFO:     [12-10-2026 09:56:13] 127.0.0.1:49393 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c7cfe699-25e8-45dd-8583-01a2cbbfc1eb/get HTTP/1.1" 200
